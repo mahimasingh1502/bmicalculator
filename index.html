@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>BMI Calculator</title>
+<link rel="stylesheet" href="index.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/ce7d1c09ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul >
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#container">Calculator</a></li>
+            <li class="heading-li" >BMI CALCULATOR</li>
+            <li style="float:right"><a href="#contact-me">Contact</a></li>
+          </ul>
+    </div>
+    <img class="bmigar" src="images/bmigar.jpg">
+    
+<h1 class="bmi">BODY MASS INDEX</h1>
+<div id="divaboutcat">
+        <p class="about-para">
+            Your BMI is a calculation that is used to determine if a person is overweight that applies to both adult men and women.
+            Although BMI is not perfect because it does not directly assess body fat,
+            it is still considered a reasonable alternative for identifying people who are overweight or obese,
+            since measuring body fat directly is a costly process this BMI calculator will give your estimated number.
+        </p>
+        <h1 class="cat-heading">BMI Categories:</h1>
+        <p class="cat-para">
+                <h3>Underweight</h3>
+                <p class="cat-para">A BMI of under 18.5 indicates that a person has insufficient weight, so they may need to put on some weight. They should ask a doctor or dietitian for advice.</p>
+                <h3>Normal Weight</h3>
+                <p class="cat-para">A BMI between 18.5 and 24.9 indicates that a person has a healthy weight for their height. By maintaining a healthy weight, they can lower their risk of developing serious health problems.</p>
+                <h3>OverWeight</h3>
+                <p class="cat-para">A BMI between 25 and 29.9 indicates that a person is slightly overweight. A doctor may advise them to lose some weight for health reasons. They should talk with a doctor or dietitian for advice.</p>
+                <h3>Obese</h3>
+                <p class="cat-para">A BMI of over 30 indicates that a person has obesity. Their health may be at risk if they do not lose weight. They should talk with a doctor or dietitian for advice.</p>
+            
+        </p>
+
+</div>
+<div class="cont-form">
+<div id="container">
+    <h1 class="form-heading">BMI Calculator</h1>
+
+    <label for="fname">Your Name:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+    <label for="height">Height :</label>
+    <input type="text" id="height" placeholder="in centimeters">
+
+    <label for="weight">Weight :</label>
+    <input type="text" id="weight" placeholder="in Kilograms">
+
+    <button id="btn">Calculate</button>
+</div>
+    <h3 id="result"></h3>
+</div>
+
+<footer id="contact-me">
+    <h3 class="contact-us-heading">Contact Us</h3>
+    
+    <div >
+        <ul class="footer-div">
+            <li><a href="mailto:mahimasingh.mahis@gmail.com"><i class="fas fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fas fa-phone-square-alt"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+            
+          </ul>
+    </div>
+        
+    
+    
+    
+  </footer>
+ 
+
+<script src="index.js"></script>
+</body>
+</html>
